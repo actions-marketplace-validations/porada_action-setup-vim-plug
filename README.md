@@ -53,3 +53,7 @@ jobs:
         with:
           autoload-dir: '$HOME/.local/share/nvim/site/autoload'
 ```
+
+## License
+
+MIT © [Dom Porada](https://dom.engineering)
