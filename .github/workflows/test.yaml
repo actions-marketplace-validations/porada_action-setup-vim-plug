@@ -39,7 +39,7 @@ jobs:
           neovim: true
       - uses: ./
         with:
-          autoload-dir: '$HOME/.local/share/nvim/site/autoload'
+          autoload-dir: $HOME/.local/share/nvim/site/autoload
       - run: test -s "$HOME/.local/share/nvim/site/autoload/plug.vim"
       - run: nvim --version
       - run: |

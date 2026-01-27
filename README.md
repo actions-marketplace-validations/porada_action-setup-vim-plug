@@ -51,7 +51,7 @@ jobs:
           neovim: true
       - uses: porada/action-setup-vim-plug@v1
         with:
-          autoload-dir: '$HOME/.local/share/nvim/site/autoload'
+          autoload-dir: $HOME/.local/share/nvim/site/autoload
 ```
 
 ## License

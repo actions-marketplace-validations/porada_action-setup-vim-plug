@@ -12,7 +12,7 @@ inputs:
   autoload-dir:
     description: >
       Installation directory for vim-plug
-    default: '$HOME/.vim/autoload'
+    default: $HOME/.vim/autoload
     required: false
 
 runs:

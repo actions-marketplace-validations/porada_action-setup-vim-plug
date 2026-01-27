@@ -2,12 +2,12 @@ version: 2
 
 updates:
   - package-ecosystem: github-actions
-    directory: '/'
+    directory: /
     schedule:
-      interval: 'monthly'
+      interval: monthly
 
   - package-ecosystem: npm
-    directory: '/'
+    directory: /
     schedule:
-      interval: 'monthly'
-    versioning-strategy: 'increase'
+      interval: monthly
+    versioning-strategy: increase
