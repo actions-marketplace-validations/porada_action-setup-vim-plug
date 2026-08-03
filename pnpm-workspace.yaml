@@ -1,6 +1,16 @@
+allowBuilds:
+  simple-git-hooks: true
+
 autoInstallPeers: false
 
-onlyBuiltDependencies:
-  - simple-git-hooks
+color: always
+
+minimumReleaseAgeExclude:
+  - '@standard-config/*'
+
+overrides:
+  '@prettier/plugin-oxc': '-'
 
 strictPeerDependencies: true
+
+trustPolicy: no-downgrade

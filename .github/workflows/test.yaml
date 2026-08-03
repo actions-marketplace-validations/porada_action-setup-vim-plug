@@ -16,8 +16,10 @@ jobs:
     name: test / default
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: rhysd/action-setup-vim@v1
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: rhysd/action-setup-vim@v1.6.1
       - uses: ./
       - run: test -s "$HOME/.vim/autoload/plug.vim"
       - run: vim --version
@@ -33,8 +35,10 @@ jobs:
     name: test / autoload-dir
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: rhysd/action-setup-vim@v1
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: rhysd/action-setup-vim@v1.6.1
         with:
           neovim: true
       - uses: ./

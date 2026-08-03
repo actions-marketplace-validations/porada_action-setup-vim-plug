@@ -4,10 +4,16 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
+    cooldown:
+      default-days: 1
 
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: monthly
+      interval: daily
     versioning-strategy: increase
+    cooldown:
+      default-days: 1
+      exclude:
+        - '@standard-config/*'
