@@ -12,8 +12,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: ^1.16.0
-        version: 1.16.0(prettier@3.9.5)
+        specifier: ^1.19.1
+        version: 1.19.1(prettier@3.9.5)
       prettier:
         specifier: ^3.9.5
         version: 3.9.5
@@ -48,8 +48,8 @@ packages:
     engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
 
-  '@standard-config/prettier@1.16.0':
-    resolution: {integrity: sha512-gaiQX/tx7ZgPnQ3epSeM5uFi+YZ7N3cacinJfr9g8zBS29Dq6eTen9Q9UGVjpMnw0dWm8wh+ci3GSy7A3A2QAg==}
+  '@standard-config/prettier@1.19.1':
+    resolution: {integrity: sha512-KN1V0gSgoPXa2BwvP+mI6oWs6yRZZvCi9O/PoKUAJyVwJ0TZDWAL5du7/W8/vP7DB/Y30LjehzA36LmE5crVgA==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.9.0
@@ -129,7 +129,7 @@ snapshots:
       '@reteps/dockerfmt-linux-arm64': 0.5.4
       '@reteps/dockerfmt-linux-x64': 0.5.4
 
-  '@standard-config/prettier@1.16.0(prettier@3.9.5)':
+  '@standard-config/prettier@1.19.1(prettier@3.9.5)':
     dependencies:
       prettier: 3.9.5
       prettier-plugin-expand-json: 1.0.5(prettier@3.9.5)
